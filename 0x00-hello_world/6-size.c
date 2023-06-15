@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: "Prints the size of various types on the computer"
- * return: Always 0 (success)
+ * Return: Always 0 (success)
 */
 int main(void)
 {
@@ -10,6 +10,6 @@ int main(void)
 	printf("Size of an int:%2d byte(s)\n", sizeof(int));
 	printf("Size of a long int:%2d byte(s)\n", sizeof(long int));
 	printf("Size of a long long int:%2d byte(s)\n", sizeof(long long int));
-	printf("Size of a float:%2d byte(s)\n", sizeof(float));
+	iprintf("Size of a float:%2d byte(s)\n", sizeof(float));
 	return (0);
 }
