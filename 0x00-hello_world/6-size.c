@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Entry point
  * Description: "Prints the size of various types on the computer"
  * return: Always 0 (success)
