@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - Entry point
+ * main - Prints the size of various types on the computer it is compiled and run on
  * return: Always 0 (success)
 */
 int main(void)
