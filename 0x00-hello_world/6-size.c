@@ -3,7 +3,7 @@
  * main - Entry point
  * return: Always 0 (success)
  * */
-int main(0)
+int main(void)
 {
 	printf(" short int is %2d bytes \n", sizeof(short int));
         printf(" int is %2d bytes \n", sizeof(int));
