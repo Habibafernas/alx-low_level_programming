@@ -12,10 +12,8 @@ int main (void)
 	for(n = 'a'; n <= 'z' && n != 'q' && n != 'e'; n++)
 	{
 		putchar(n);
-
+		continue;
 	}
-	n++;
-	continue;
 	putchar('\n');
 	return (0);
 }
