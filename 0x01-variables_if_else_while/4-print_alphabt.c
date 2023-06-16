@@ -6,10 +6,11 @@
  * Return: Always 0 (success)
  */
 #include<stdio.h>
-int main (void)
+int main(void)
 {
 	char n;
-	for(n = 'a'; n <= 'z'; n++)
+
+	for (n = 'a'; n <= 'z'; n++)
 	{
 		if (n == 'e')
 		{
@@ -21,7 +22,7 @@ int main (void)
 		}
 		else
 		{
-		 	putchar(n);
+			putchar(n);
 		}
 	}
 	putchar('\n');
