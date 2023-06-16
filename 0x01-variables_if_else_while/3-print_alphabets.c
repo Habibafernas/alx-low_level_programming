@@ -18,4 +18,5 @@ int main(void)
 		putchar(N);
 	}
 	putchar('\n');
+
 }
