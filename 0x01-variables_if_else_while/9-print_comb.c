@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar( n);
 		putchar(',');
-		putchar('\t')
+		putchar('\t');
 	}
 	putchar('$');
 	return (0);
