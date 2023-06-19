@@ -12,7 +12,9 @@ int main(void)
 
 	for (n = 48; n <= 57; n++)
 	{
-		putchar("%c, ", n);
+		putchar( n);
+		putchar(',');
+		putchar('\t')
 	}
 	putchar('$');
 	return (0);
