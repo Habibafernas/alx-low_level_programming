@@ -12,8 +12,8 @@ int main(void)
 
 	for (n = 48; n <= 57; n++)
 	{
-		putchar("%d,\t", n);
+		putchar("%d, ", n);
 	}
-	putchar('\$');
+	putchar('$');
 	return (0);
 }
