@@ -8,7 +8,7 @@
 #include<stdio.h>
 int main(void)
 {
-        int n;
+	int n;
 	char a;
 
 	for (n = 48; n <= 57; n++)
@@ -19,6 +19,6 @@ int main(void)
 	{
 		putchar(a);
 	}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
