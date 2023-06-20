@@ -5,8 +5,8 @@
  *
  * Return: Always 0 (success)
  */
-#include<stdio.h>
-int main(void)
+#include<main.h>
+int _putchar(void)
 {
         putchar("_putchar");
         return (0);
