@@ -1,7 +1,7 @@
-/*
- * _islower - Entry Point
+/**
+ * _islower -check the code
  *
- * Description : _islower take values and return 1 if lowercase 0 otherwise
+ * Description : take values and return 1 if lowercase 0 otherwise
  *
  * Return : if 'c' is lowercase it returns 1 otherwise it reurns 0.
  */
