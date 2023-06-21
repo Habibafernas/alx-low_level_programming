@@ -3,7 +3,7 @@
  *
  * Description : checking if 'c' is lowercase or not in ASCII code
  *
- * Return : 1 if 'c' is lowercase and 0 otherwise
+ * Return: 1 if 'c' is lowercase and 0 otherwise
  */
 int _islower(int c)
 {
