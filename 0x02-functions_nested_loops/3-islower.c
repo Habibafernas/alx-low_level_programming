@@ -1,7 +1,7 @@
 /*
  * _islower - Entry Point
  *
- * Description : checking if 'c' is lowercase or uppercase
+ * Description : take integer value and return integer value 
  *
  * Return : if 'c' is lowercase it returns 1 otherwise it reurns 0.
  */
