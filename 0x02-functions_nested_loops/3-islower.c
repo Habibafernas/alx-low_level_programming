@@ -1,7 +1,7 @@
 /**
  * _islower - check the code
  *
- * Description : function checks for lowercase character
+ * Description : function checks for lowercase character of c values
  *
  * Return : Return 1 if 'c' is lowercase , Return 0 otherwise.
  */
