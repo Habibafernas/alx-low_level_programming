@@ -1,7 +1,7 @@
-/**
+/*
  * _islower - check the code
  *
- * Description: checking if variable 'c' is lowercase or uppercase
+ * Description :checking if variable 'c' is lowercase or uppercase
  *
  * Return: 1 if 'c' is lowercase and 0 otherwise
  */
