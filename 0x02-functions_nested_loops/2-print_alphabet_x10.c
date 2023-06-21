@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet_x10 - check the code
  *
- * Description : prints all numbers from 0 to 9
+ * Description : prints all alphabet 10 times
  *
  * Return: Always 0 (success)
  */
@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 	char c = 'a';
 	int n = 0;
 
-	while (n <= 10)
+	while (n <= 9)
 	{
 		while (c <= 'z')
 		{
@@ -19,5 +19,6 @@ void print_alphabet_x10(void)
 			c++;
 		}
 		_putchar('\n');
+		n++;
 	}
 }
