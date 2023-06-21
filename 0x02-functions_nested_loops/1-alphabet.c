@@ -1,9 +1,11 @@
 #include "main.h"
-/*
- * print_alphabet - check the code
- * Description: ('print_alphabet prints the alphabet')
- * Return: Always 0.
-*/
+/**
+ * main - Entry point
+ *
+ * Description : function print_alphabet prints alphapet
+ *
+ * Return: Always 0 (success)
+ */
 void print_alphabet(void)
 {
 	char a;
