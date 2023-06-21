@@ -17,7 +17,3 @@ int main(void)
 	_putchar("r");
         return (0);
 }
-void _putchar (char c)
-{
-	putchar("%c",c);
-}
