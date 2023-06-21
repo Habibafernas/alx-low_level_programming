@@ -6,8 +6,12 @@
  * Return: Always 0 (success)
  */
 #include "main.h"
-int _putchar(void)
+int main(void)
 {
-        putchar("_putchar");
+        _putchar("_putchar");
         return (0);
+}
+_putchar (char c)
+{
+	putchar(c);
 }
