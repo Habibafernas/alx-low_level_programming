@@ -1,7 +1,7 @@
 /**
  * _islower - variable
  *
- * Description : return 1 if 'c' is lowercase and  0 otherwise
+ * Description : checking if char is lowercase or not
  *
  * Return : 1 if 'c' is lowercase and it reurns 0 otherwise
  */
