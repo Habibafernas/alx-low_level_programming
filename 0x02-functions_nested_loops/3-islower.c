@@ -1,9 +1,9 @@
 /**
  * _islower - check the code
  *
- * Description : function that takes ASCII values and checks for lowercase character
+ * Description : function checks for lowercase character
  *
- * Return : Returns 1 if 'c' is lowercase , Returns 0 otherwise.
+ * Return : Return 1 if 'c' is lowercase , Return 0 otherwise.
  */
 int _islower(int c)
 {
