@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - check the code
  *
  * Description : function print_alphabet prints alphapet
  *
