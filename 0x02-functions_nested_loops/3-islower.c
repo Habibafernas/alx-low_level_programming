@@ -1,5 +1,5 @@
 /**
- * _islower - function takes values of c
+ * _islower - Entry Point
  *
  * Description : function checks for lowercase character of 'c' values
  *
