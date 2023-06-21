@@ -18,7 +18,7 @@ int main(void)
 	_putchar("r");
         return (0);
 }
-_putchar (char c)
+void _putchar (char c)
 {
 	putchar(c);
 }
