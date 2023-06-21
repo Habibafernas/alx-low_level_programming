@@ -3,7 +3,7 @@
  *
  * Description : return 1 if 'c' is lowercase and  0 otherwise
  *
- * Return : if 'c' is lowercase it returns 1 otherwise it reurns 0.
+ * Return : returns 1 if 'c' is lowercase and it reurns 0 otherwise
  */
 int _islower(int c)
 {
