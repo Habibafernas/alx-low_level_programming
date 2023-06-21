@@ -4,7 +4,7 @@
  *
  * Description : getting the abs value of n
  *
- * @c variable : c variable is integer
+ * @n variable : n variable is integer
  *
  * Return: abs value of n
  */
