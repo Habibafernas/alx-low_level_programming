@@ -1,11 +1,10 @@
 /**
- * main - Entry point
- *
- * Description : prints all numbers from 0 to 9
+ * main - Entry Point
  *
  * Return: Always 0 (success)
  */
 #include "main.h"
+#include<stdio.h>
 int main(void)
 {
         _putchar("_");
