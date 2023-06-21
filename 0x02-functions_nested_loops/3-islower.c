@@ -1,9 +1,9 @@
 /**
- * _islower - check the code
+ * _islower - variable
  *
  * Description : return 1 if 'c' is lowercase and  0 otherwise
  *
- * Return : returns 1 if 'c' is lowercase and it reurns 0 otherwise
+ * Return : 1 if 'c' is lowercase and it reurns 0 otherwise
  */
 int _islower(int c)
 {
