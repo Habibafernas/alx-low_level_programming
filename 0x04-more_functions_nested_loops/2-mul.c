@@ -4,11 +4,13 @@
  *
  * Description : function that multiplies two integers
  *
- * @c variable : c variable is an integer
+ * @a variable : a variable is an integer
+ *
+ * @b variable : b variable is an integer
  *
  * Return: multiplication of two integer
  */
 int mul(int a, int b)
 {
-	return (a*b);
+	return (a * b);
 }
