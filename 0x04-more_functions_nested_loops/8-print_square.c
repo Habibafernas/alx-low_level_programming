@@ -6,15 +6,11 @@
  *
  * @size variable : size is the size of the square
  *
- * @j variable : size of the square
- *
- * @n variable : size of the square
- *
  * Return: Always (0)
  */
 void print_square(int size)
 {
-	j= size;
+	j = size;
 
 	for (j; j > 0; j--)
 	{n = size;
