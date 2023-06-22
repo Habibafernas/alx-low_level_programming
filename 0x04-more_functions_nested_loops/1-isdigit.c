@@ -2,7 +2,7 @@
 /**
  *  _isdigit - check the code
  *
- * Description : checking if 'c' isa digit or not 
+ * Description : checking if 'c' is a digit or not
  *
  * @c variable : c variable is values fron ASCII Code
  *
@@ -14,7 +14,7 @@ int _isdigit(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
