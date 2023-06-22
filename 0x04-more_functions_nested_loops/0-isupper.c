@@ -1,5 +1,5 @@
 /**
- * _islower - check the code
+ * _isupper - check the code
  *
  * Description : checking if 'c' is lowercase or uppercase
  *
@@ -7,7 +7,7 @@
  *
  * Return: 0 if 'c' is lowercase and 1 otherwise
  */
-int _isupper(int c);
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 90))
 	{
