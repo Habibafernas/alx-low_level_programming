@@ -1,14 +1,38 @@
 #include "main.h"
 /**
- * _islower - check the code
+ * main - check the code
  *
- * Description : checking if 'c' is lowercase or uppercase
+ * Description : print Fizz,Buzz,FizzBuzz
  *
- * @c variable : c variable is values fron ASCII Code
- *
- * Return: 1 if 'c' is lowercase and 0 otherwise
+ * Return: Always (0)
  */
-int Fizz-Buzz(int n)
+int main(void)
 {
-	for (n; n == )
+	int i;
+
+	for (i = 1; i <= 100; i++)
+	{
+		if (i % 3 == 0 && i % 5 != 0)
+		{
+			printf(" Fizz");
+		}
+		else if (i % 5 == 0 && i % 3 != 0)
+		{
+			printf(" Buzz");
+		}
+		else if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf(" FizzBuzz");
+		}
+		else if (i == 1)
+		{
+			printf("%d", i);
+		}
+		else
+		{
+			printf("%d", i);
+		}
+
+	}
+	return (0);
 }
