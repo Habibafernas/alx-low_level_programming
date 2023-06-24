@@ -4,7 +4,6 @@
  *
  * Description : print Fizz,Buzz,FizzBuzz
  *
- * Return: Always (0)
  */
 int main(void)
 {
