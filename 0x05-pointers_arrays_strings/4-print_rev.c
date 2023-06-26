@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_rev - Entry point
  *
@@ -13,7 +14,7 @@ void print_rev(char *s)
 
 	for (i = 0; s[i] != 0; i++)
 	{
-		_putchar(s[((sizeof(s) - 1) - i)]);
+		_putchar(s[((strlen(s) - 2) - i)]);
 	}
 	_putchar('\n');
 }
