@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 /**
  * _strlen - determine length of a pointer
  * Description : determine length of a pointer
@@ -9,6 +10,6 @@ int _strlen(char *s)
 {
 	int l;
 
-	l = length(s);
+	l = strlen(s);
 	return (l);
 }
