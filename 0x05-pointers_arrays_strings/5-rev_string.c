@@ -5,9 +5,9 @@
  */
 void rev_string(char *s)
 {
-	int i;
+	size_t i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; i != strlen(s); i++)
 	{
 		s[i] = (s[((strlen(s) - 1) - i)]);
 	}
