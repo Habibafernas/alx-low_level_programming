@@ -5,7 +5,7 @@
  */
 void puts2(char *str)
 {
-	char *ch = "";
+	char *ch = " ";
 
 	int i, j;
 
