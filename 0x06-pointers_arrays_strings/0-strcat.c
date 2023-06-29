@@ -6,6 +6,7 @@
  * @src: char rvariable
  *
  * Description: function that concatenates two strings
+ * Return: return variable dest
  */
 char *_strcat(char *dest, char *src)
 {
