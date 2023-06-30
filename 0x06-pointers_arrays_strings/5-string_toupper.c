@@ -4,6 +4,7 @@
  *
  * Description : a function that changes all lowercase letters to uppercase.
  *
+ * @s : integer variable
  * Return: 1 if 'c' is lowercase and 0 otherwise
  */
 char *string_toupper(char *s)
