@@ -1,7 +1,7 @@
 /**
  * *string_toupper - check the code
  *
- * Description : a function that changes all lowercase letters of a string to uppercase.
+ * Description : a function that changes all lowercase letters to uppercase.
  *
  * Return: 1 if 'c' is lowercase and 0 otherwise
  */
