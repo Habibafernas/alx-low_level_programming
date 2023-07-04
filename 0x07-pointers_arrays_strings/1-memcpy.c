@@ -4,8 +4,8 @@
  * *_memcpy -  function that copies memory area
  * @src : char
  * @dest : char
- * n : unteger
- * Return : return dest variable
+ * n : integer
+ * Return: return dest variable
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
