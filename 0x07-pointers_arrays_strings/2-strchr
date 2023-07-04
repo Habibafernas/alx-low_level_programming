@@ -1,0 +1,13 @@
+#include "main.h"
+/**
+ * reset_to_98 - determine value of pointer
+ * @n: integer variable
+ */
+char *_strchr(char *s, char c)
+{
+	int i;
+	
+	for (i = 0; s[i] != 0; i++)
+{}
+	for (i = 0; i < 
+}
