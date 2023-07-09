@@ -1,4 +1,4 @@
 #!/bin/bash
 gcc -c *.c
 ar rc liball.a *.o
-ranlib loball.a
+ranlib liball.a
