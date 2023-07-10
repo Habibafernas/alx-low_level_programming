@@ -6,10 +6,11 @@
  * @argc: number of arguments
  * @argv: array of arrguments
  *
- * Description: prints the times table
+ * Return: Always return(0)
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", *argv);
-	return(0);
+
+	return (0);
 }
