@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * *create_array - a program that prints all arguments it receives.
- * @size: size of the array
- * @c: char to initialize the array
- * Return: pointer to the array (Success), NULL (Error)
+ * **alloc_grid - a program that prints all arguments it receives.
+ * @width: size of the array
+ * @height: height of the array
+ * Return: Return: pointer to the created matrix (Success)
+ * or NULL (Error)
  */
 int **alloc_grid(int width, int height)
 {
@@ -15,7 +16,7 @@ int **alloc_grid(int width, int height)
 	int **p;
 	int i, j;
 
-	p = (int **) malloc (sizeof(* int) * height)
+	p = (int **) malloc(sizeof(int *) * height)
 	if (p == NULL)
 	{
 		return (NULL);
