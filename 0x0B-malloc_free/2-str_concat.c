@@ -28,21 +28,21 @@ char *str_concat(char *s1, char *s2)
 	}
 	if (s1)
 	{
-		while (i < u)
+		while (u < i)
 		{
-			p[i] = s1[i];
-			i++;
+			p[u] = s1[u];
+			u++;
 		}
 	}
 	if (s2)
 	{
-		while (i < (n - 2))
+		while (u < (n - 2))
 		{
-			p[i] = s2[j];
-			i++;
-			j++;
+			p[u] = s2[t];
+			u++;
+			t++;
 		}
 	}
-	p[i] = '\0';
+	p[u] = '\0';
 	return (p);
 }
