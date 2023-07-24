@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * *create_array - a program that prints all arguments it receives.
- * @size: size of the array
- * @c: char to initialize the array
- * Return: pointer to the array (Success), NULL (Error)
+ * *str_concat - concatenates two strings
+ * @s1: the first array
+ * @s2: the second array
+ * Return: pointer to the new string created (Success), or NULL (Error)
  */
 char *str_concat(char *s1, char *s2)
 {
