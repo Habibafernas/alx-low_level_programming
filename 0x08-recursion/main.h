@@ -14,4 +14,5 @@ char *leet(char *);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 void _puts_recursion(char *s);
+void _print_rev_recursion(char *s);
 #endif
