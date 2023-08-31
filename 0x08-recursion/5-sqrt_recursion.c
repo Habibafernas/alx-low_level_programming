@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
+#include <math.h>
 /**
  * _sqrt_recursion - a program that prints all arguments it receives.
  * @n: size of the array
