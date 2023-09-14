@@ -7,7 +7,7 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	int i;
+	unsigned int i;
 
 	va_list list;
 
@@ -17,19 +17,19 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		if (!separator)
 		{
-			printf("%d", va_arg(list, char));
+			printf("%d", va_arg(list, *char));
 		}
-		else if (!va_arg(list, char))
+		else if (!va_arg(list, *char))
 		{
 			printf("nil");
 		}
 		else if (separator && i == 0)
 		{
-			printf("%d", va_arg(list, char);
+			printf("%d", va_arg(list, *char);
 		}
 		else
 		{
-			printf("%s%d", separator, va_arg(list, char));
+			printf("%s%d", separator, va_arg(list, *char));
 		}
 	}
 	printf("\n");
