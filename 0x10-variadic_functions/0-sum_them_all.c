@@ -8,12 +8,9 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	size_t i, sum = 0;
+	size_t i;
+	int sum = 0;
 
-	if (n == 0)
-	{
-		return (0);
-	}
 	va_list list;
 
 	va_start(list, n);
