@@ -24,12 +24,13 @@ int create_file(const char *filename, char *text_content)
 		}
 
 	}
+
 	p = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 	w = write(p, text_content, l);
+
 	if (p == -1 || w == -1)
 		return (-1);
 
 	close(p);
 	return (l);
-
 }
