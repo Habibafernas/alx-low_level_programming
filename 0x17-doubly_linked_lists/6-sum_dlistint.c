@@ -11,11 +11,7 @@ int sum_dlistint(dlistint_t *head)
 {
 	int sum = 0;
 
-	if (head = NULL)
-	{
-		return (NULL);
-	}
-	else
+	if (head != NULL)
 	{
 		while (head->prev != NULL)
 			head = head->prev;
