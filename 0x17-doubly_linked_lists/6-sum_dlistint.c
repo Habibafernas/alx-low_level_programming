@@ -9,7 +9,7 @@
  */
 int sum_dlistint(dlistint_t *head)
 {
-	unsigned i = 0;
+	unsigned sum = 0;
 
 	if (head = NULL)
 	{
