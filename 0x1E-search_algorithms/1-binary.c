@@ -37,7 +37,7 @@ int recursive_search(int *array, size_t size, int value)
 	half++;
 
 	return (recursive_search(array + half, size - half, value) + half);
-
+}
 
 /**
  * binary_search - calls to binary_search to return
